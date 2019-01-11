@@ -12,7 +12,7 @@
 
 In iSpecs the client raspberry pi send the images obtain by picamera as a POST request and get the response of object detection in json format which will be spoken via tts engine in client.
 
-In this repo the both files `client.py` and `ispecs.php` is kept inside the `/var/www/html/ispecs` folder in raspberry pi integrated with apache 2.0 server.
+In this repo the both files `client.py` and `ispecs.php` is kept inside the `/var/www/html/ispecs` folder in Raspberry Pi integrated with Apache 2.0 Server.
 
 For runnning the python script call :
 
