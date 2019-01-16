@@ -6,19 +6,21 @@ iSpecs is the real time object detection specs based on YOLO with Raspberry pi.
 It's like regular specs but with real time object detection
 
 This is the Client side repository of iSpecs in which request is sent and recieved to server by client via rasberrypi.
-
-##### New Features!
-  - Real Time object detection.
-  - Better accuracy 
+![workflow diagram here](https://raw.githubusercontent.com/Shritesh99/iSpecs-Reimagined_Server/master/images/iSpecs-Arch.png)
 
 #### Checkout the server repository [here](https://github.com/Shritesh99/iSpecs-Reimagined_Server)
 #### Checkout the manual version [here](https://github.com/Shritesh99/iSpecs)
-### components used : 
+
+### New Features!
+  - Real Time object detection.
+  - Better accuracy 
+
+### Components used : 
  - Picamera - 8mp camera for vision
  - Rasberrypi - model B+
  - Headphone - for audio output
 
-![workflow diagram here](https://raw.githubusercontent.com/Shritesh99/iSpecs-Reimagined_Server/master/images/iSpecs-Arch.png)
+
 In iSpecs the client raspberry pi sends the images obtain by picamera as a POST request and get the response of object detection in json format which will be spoken via tts engine in client.
 ### Tech
 Server mainly uses YOLO system for object detection:
