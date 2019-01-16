@@ -8,8 +8,8 @@ It's like regular specs but with real time object detection
 This is the Client side repository of iSpecs in which request is sent and recieved to server by client via rasberrypi.
 ![workflow diagram here](https://raw.githubusercontent.com/Shritesh99/iSpecs-Reimagined_Server/master/images/iSpecs-Arch.png)
 
-#### Checkout the server repository [here](https://github.com/Shritesh99/iSpecs-Reimagined_Server)
-#### Checkout the manual version [here](https://github.com/Shritesh99/iSpecs)
+#### Checkout the Server repository [here](https://github.com/Shritesh99/iSpecs-Reimagined_Server)
+#### Checkout the Manual version [here](https://github.com/Shritesh99/iSpecs)
 
 ### New Features!
   - Real Time object detection.
@@ -43,7 +43,8 @@ http://{ip address of raspberry pi}/ispecs/ispecs.php?ip={ip address where iSpec
   - [Siddharth](https://github.com/siddharthshah3030)
   
 If you find any problem feel free to create issue.
- Suggestions and feedbacks are always welcomed!
+
+Suggestions and feedbacks are always welcomed!
 
 
 
